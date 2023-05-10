@@ -26,7 +26,7 @@ error = ''
 def test():
     return """
         <h1>Добро пожаловать на главную страницу!</h1>
-        <button onclick="location.href='/reg'">Регистрация</button>
+        <button onclick="location.href='/register'">Регистрация</button>
         <button onclick="location.href='/success'">Вход</button>
         <button onclick="location.href='/cam'">Камера</button>
         """
